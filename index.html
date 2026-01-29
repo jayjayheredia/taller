@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroAuto | Expertos en Electricidad Automotriz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        h1, h2, h3, .font-tech { font-family: 'Orbitron', sans-serif; }
+        body { font-family: 'Inter', sans-serif; }
+        .bg-electric { background: linear-gradient(90deg, #00d2ff 0%, #3a7bd5 100%); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <header class="sticky top-0 z-50 bg-gray-900/95 backdrop-blur-md text-white border-b border-blue-500/30 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl md:text-2xl font-bold tracking-widest text-blue-400">
+                TALLER<span class="text-white"> AMODEO</span><span class="text-blue-500 text-3xl">⚡</span>
+            </h1>
+            <nav class="hidden md:flex space-x-8 font-medium text-xs uppercase tracking-widest">
+                <a href="#servicios" class="hover:text-blue-400 transition">Diagnóstico</a>
+                <a href="#componentes" class="hover:text-blue-400 transition">Componentes</a>
+                <a href="#contacto" class="border border-blue-400 px-4 py-2 rounded hover:bg-blue-400 hover:text-gray-900 transition">Turno Online</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="relative h-[550px] flex items-center justify-center bg-black overflow-hidden">
+        <div class="absolute inset-0 z-0 opacity-50">
+            <img src="https://escuelasnewton.com.ar/wp-content/uploads/electricidad-automotriz.jpg" 
+                 class="w-full h-full object-cover" alt="Electricidad automotriz">
+            <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-blue-900/20"></div>
+        </div>
+        
+        <div class="container mx-auto relative z-10 px-6 text-center md:text-left">
+            <div class="max-w-3xl">
+                <span class="bg-blue-600 text-white text-[10px] font-bold uppercase px-3 py-1 rounded-full mb-4 inline-block tracking-[0.2em]">High Voltage Service</span>
+                <h2 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                    Especialistas en <span class="text-blue-400">Electricidad</span>
+                </h2>
+                <p class="text-gray-300 text-lg mb-8 max-w-xl">
+                    Solucionamos fallas de encendido, baterías y sistemas de iluminación con tecnología de punta.
+                </p>
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+                    <a href="#contacto" class="bg-blue-500 hover:bg-blue-400 text-gray-900 font-black py-4 px-10 rounded-sm transition-all shadow-[0_0_20px_rgba(59,130,246,0.5)]">
+                        ESCANEAR MI AUTO
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16">
+                <div>
+                    <h3 class="text-3xl font-bold uppercase italic">Servicios Eléctricos</h3>
+                    <div class="h-1 w-20 bg-blue-500 mt-2"></div>
+                </div>
+                <p class="text-gray-500 mt-4 md:mt-0 max-w-xs text-sm italic">Precisión en cada voltio, seguridad en cada arranque.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="p-8 border-b-4 border-blue-500 bg-gray-50 hover:bg-blue-50 transition-colors group">
+                    <div class="text-3xl mb-4 group-hover:scale-110 transition-transform inline-block">🔋</div>
+                    <h4 class="font-bold mb-2 uppercase text-sm">Baterías y Carga</h4>
+                    <p class="text-gray-600 text-xs leading-relaxed">Prueba de alternadores, reguladores de voltaje y reemplazo de baterías de alto rendimiento.</p>
+                </div>
+                <div class="p-8 border-b-4 border-gray-900 bg-gray-50 hover:bg-blue-50 transition-colors group">
+                    <div class="text-3xl mb-4 group-hover:scale-110 transition-transform inline-block">💻</div>
+                    <h4 class="font-bold mb-2 uppercase text-sm">Inyección Electrónica</h4>
+                    <p class="text-gray-600 text-xs leading-relaxed">Diagnóstico computarizado de la ECU (computadora de a bordo).</p>
+                </div>
+                <div class="p-8 border-b-4 border-blue-500 bg-gray-50 hover:bg-blue-50 transition-colors group">
+                    <div class="text-3xl mb-4 group-hover:scale-110 transition-transform inline-block">💡</div>
+                    <h4 class="font-bold mb-2 uppercase text-sm">Iluminación LED/Xenón</h4>
+                    <p class="text-gray-600 text-xs leading-relaxed">Reparación de circuitos de luces, instalación de kits LED y sistemas de confort.</p>
+                </div>
+                <div class="p-8 border-b-4 border-gray-900 bg-gray-50 hover:bg-blue-50 transition-colors group">
+                    <div class="text-3xl mb-4 group-hover:scale-110 transition-transform inline-block">⚙️</div>
+                    <h4 class="font-bold mb-2 uppercase text-sm">Arranque y Encendido</h4>
+                    <p class="text-gray-600 text-xs leading-relaxed">Service preventivo y reparación de motores de arranque y distribuidores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="componentes" class="py-16 bg-gray-900 text-white">
+        <div class="container mx-auto px-6">
+            <h3 class="text-center text-xl font-bold mb-12 tracking-[0.3em] uppercase text-blue-400">Componentes Originales</h3>
+            <div class="flex flex-wrap justify-center gap-8 opacity-70">
+                <span class="px-6 py-2 border border-gray-700 rounded-full text-xs font-bold uppercase">Alternadores</span>
+                <span class="px-6 py-2 border border-gray-700 rounded-full text-xs font-bold uppercase">Sensores MAF/MAP</span>
+                <span class="px-6 py-2 border border-gray-700 rounded-full text-xs font-bold uppercase">Bobinas</span>
+                <span class="px-6 py-2 border border-gray-700 rounded-full text-xs font-bold uppercase">Fusibleras</span>
+                <span class="px-6 py-2 border border-gray-700 rounded-full text-xs font-bold uppercase">Ecus</span>
+            </div>
+        </div>
+    </section>
+
+<section id="contacto" class="py-20 bg-gray-100">
+    <div class="container mx-auto px-6">
+        <div class="max-w-5xl mx-auto bg-white rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row border border-gray-100">
+            
+            <div class="bg-gray-900 p-10 md:w-2/5 text-white flex flex-col justify-between relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-blue-600/20 blur-3xl rounded-full -mr-16 -mt-16"></div>
+                
+                <div class="relative z-10">
+                    <h3 class="text-2xl font-bold mb-8 tracking-tighter text-blue-400 uppercase">Datos del Taller</h3>
+                    
+                    <div class="space-y-8">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-blue-500/10 p-3 rounded-lg border border-blue-500/30">
+                                <span class="text-xl">📞</span>
+                            </div>
+                            <div>
+                                <h4 class="text-xs font-bold text-blue-400 uppercase tracking-widest">Llamanos o WhatsApp</h4>
+                                <p class="text-lg font-semibold">+54 9 291 123-4567</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-blue-500/10 p-3 rounded-lg border border-blue-500/30">
+                                <span class="text-xl">📍</span>
+                            </div>
+                            <div>
+                                <h4 class="text-xs font-bold text-blue-400 uppercase tracking-widest">Ubicación</h4>
+                                <p class="text-gray-300">Calle Estomba 1234<br>Bahía Blanca, Buenos Aires</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-blue-500/10 p-3 rounded-lg border border-blue-500/30">
+                                <span class="text-xl">🕒</span>
+                            </div>
+                            <div>
+                                <h4 class="text-xs font-bold text-blue-400 uppercase tracking-widest">Horarios de Atención</h4>
+                                <p class="text-gray-300">Lun a Vie: 08:00 - 18:00 hs</p>
+                                <p class="text-gray-300 font-medium">Sábados: 08:30 - 12:30 hs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12 relative z-10">
+                    <a href="https://maps.google.com" target="_blank" class="text-xs text-blue-400 hover:text-white transition flex items-center font-bold uppercase tracking-widest">
+                        Ver en Google Maps 
+                        <span class="ml-2">↗</span>
+                    </a>
+                </div>
+            </div>
+
+            <form class="p-10 md:w-3/5 space-y-6">
+                <div class="mb-6">
+                    <h3 class="text-2xl font-bold text-gray-800">Envianos un Mensaje</h3>
+                    <p class="text-sm text-gray-500">Respondemos en menos de 2 horas hábiles.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <input type="text" placeholder="Nombre completo" class="w-full p-4 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:bg-white outline-none transition-all" />
+                    <input type="tel" placeholder="Teléfono de contacto" class="w-full p-4 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:bg-white outline-none transition-all" />
+                </div>
+                
+                <input type="text" placeholder="Vehículo (Ej: Toyota Hilux 2020)" class="w-full p-4 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:bg-white outline-none transition-all" />
+                
+                <textarea placeholder="¿Qué problema eléctrico presenta tu vehículo?" class="w-full p-4 bg-gray-50 border border-gray-200 rounded-xl h-32 focus:ring-2 focus:ring-blue-500 focus:bg-white outline-none transition-all"></textarea>
+                
+                <button type="submit" class="w-full bg-blue-600 text-white font-black py-4 rounded-xl hover:bg-blue-700 transition-all shadow-lg shadow-blue-600/20 uppercase tracking-widest">
+                    Solicitar Turno Ahora
+                </button>
+            </form>
+
+        </div>
+    </div>
+</section>
+
+    <footer class="bg-gray-900 text-gray-600 text-center p-10">
+        <p class="text-[10px] tracking-[0.5em] font-bold uppercase">&copy; 2025 ELECTROAUTO - TECNOLOGÍA AUTOMOTRIZ</p>
+    </footer>
+
+</body>
+</html>
